@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex | Senna Klijn</title>
+
+    <link rel="stylesheet" href="./src/css/main.css">
+    <script src="./src/js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="./pokedex.html">
+            <img id="logo" src="./assets/img/logo/pokemon-logo-pokemon-icon-transparent-free-png-1724429746.png" alt="POKEMON_LOGO">
+        </a>
+    </header>
+    <main class="main">
+        <section id="hero-content">
+            <div id="hero-text">
+                <h2>Welcome to Senna's Poke-Experience </h2>
+                <p>Here, you can explore Pokémon by searching for their Pokédex number to view their name and image. You can also browse a grid of Pokémon, where each card displays the Pokémon's name, image, and three of its moves. Use the previous and next links to explore more Pokémon without reloading the page. Whether you're looking for a specific Pokémon or just browsing, PokéPicker makes discovering Pokémon simple and fun!</p>
+                <p>This project was made for a school assignment about Async Functions and API's (in this case: pokemon)</p>
+                <p>Thank you for showing interest; enjoy your browsing.</p>
+            </div>
+            
+            <div id="pokepicker">
+                <h2 id="name"></h2>
+                <img id="img" alt="POKEMON TO BE DISPLAYED"></img>
+                <p>There are a total of 1.025 pokemons. Try one below!</p>
+                <input required type="number" id="number" value="1" placeholder="Type a number!">
+            </div>
+        </section>
+        
+        <br>
+        
+        <section>
+            <div id="grid-display">
+                <!-- POKEMON GRID 4 x 5 -->
+                <!-- pokeContainer + pokeImg + pokeInfo -->
+            </div>
+        </section>
+
+        <section id="btn-nav-bar">
+            <a href="#" id="btn-prev">← BACK</a>
+            <a href="#" id="btn-next">NEXT →</a>
+        </section>
+    </main>
+</body>
+</html>
